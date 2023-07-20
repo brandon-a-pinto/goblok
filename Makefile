@@ -3,3 +3,6 @@ build:
 
 run: build
 	@./cmd/blockchain/bin/goblok
+
+test:
+	@go test ./...
